@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
   })
 })
 
+
 function createBoard (size)  {
   
   container.style["grid-template-columns"] = `repeat(${size}, 1fr)`;
