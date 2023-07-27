@@ -43,6 +43,8 @@ h4 {
 }
 
 .container {
+  width: 500px;
+  height: 500px;
   margin: 20px;
   border: 10px solid black;
   box-sizing: border-box;
