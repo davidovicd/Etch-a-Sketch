@@ -28,6 +28,7 @@ header{
   align-items: center;
   background-color: white;
   padding: 0 10px;
+  margin-top: 50px;
 }
 
 h4 {
@@ -46,8 +47,11 @@ h4 {
   width: 500px;
   height: 500px;
   border: 10px solid black;
+  box-sizing: border-box;
   background-color: white;
   display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: (16, 1fr);
 }
 
 footer {
